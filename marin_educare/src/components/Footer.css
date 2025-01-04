@@ -1,0 +1,67 @@
+.footer_after{
+    height: 30rem;
+    background: linear-gradient(to bottom,white  , #c9dfd8);
+    background-size: cover;
+    background-position: bottom right;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1{
+    height: 4rem;
+    background: linear-gradient(to bottom,white  , #d8ece5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: .85rem;
+}
+
+
+.copyright{
+    align-items: center;
+}
+
+.com_icons{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.footer_h{
+    font-size: 1.25rem;
+    opacity: .85;
+}
+
+
+.text-footer{
+    color: rgb(102, 127, 215);
+}
+
+.text-footer:hover{
+    text-shadow: 0px 0px 2px 2px rgb(25, 111, 128);
+    text-decoration: none;
+}
+
+
+.social_link{
+    color: black;
+    text-decoration: none;
+}
+
+.linkedin:hover{
+    color: #0a66c2;
+}
+
+.instragram:hover{
+    color: #fa006f;
+}
+
+.facebook:hover{
+    color: #0866ff;
+}
+
+.telegram:hover{
+    color: #28a8e8;
+}

@@ -1,0 +1,122 @@
+.navbar{
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav_color{
+    color: rgb(0, 0, 0) !important;
+}
+
+.nav_icon{
+  height: 2.25rem;
+}
+
+.nav_color:hover{
+    color: #12b9c2 !important;
+    
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    position: relative;
+    margin-right: 1.5rem !important;
+  }
+
+  .me-auto{
+    margin: 0 auto !important;
+  }
+  
+  /* .nav-item a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  } */
+  
+  /* Dropdown table styles */
+  .dropdown-table {
+    display: none; /* Initially hide the table */
+    position: absolute;
+    top: 2.5rem; /* Adjust based on your nav height */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background-color: white;
+    border: 1px solid #12b9c2;
+    box-shadow: 0 8px 8px #88bdf2;
+  }
+  
+  .dropdown-table .table {
+    margin: 0;
+    width: 25rem; /* Adjust the width */
+    border: 1px solid black !important;
+  }
+  
+  /* Show the table on hover */
+  .nav-item:hover .dropdown-table {
+    display: block;
+  }
+  
+  /* Table styling */
+  .table th, .table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+
+  /* Cal_hover */
+
+  .table_hover td a{
+    text-decoration: none;
+    color: black;
+  }
+  .table_hover td:hover{
+    background-color: #88bdf2;
+    text-decoration: underline;
+    text-decoration-thickness: .1rem;
+    text-underline-offset: .2rem;
+    text-decoration-color: #bdddfc;
+  }
+
+  /* Career_hover */
+
+  .career_table{
+    width: 25rem !important;
+  }
+
+
+
+  /* Courses */
+
+.course_drop_a{
+    font-weight: 500;
+}
+
+.begineer-table{
+    display: none;
+    position: absolute;
+    top: 2.5rem; /* Adjust based on your nav height */
+    left: -10rem;
+    z-index: 1000;
+    background-color: white;
+    border: 1px solid #12b9c2;
+    box-shadow: 0 8px 8px #88bdf2;
+}
+
+.profeesional_hover:hover .begineer-table{
+    display: block !important;
+}

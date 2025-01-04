@@ -1,0 +1,302 @@
+
+.hero_bankground{
+    height: 60vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, #e7fff8 , white);
+    background-size: cover;
+    background-position: bottom right;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.search{
+    margin: 0 auto;
+}
+
+
+.input{
+    margin-top: 4rem;
+    height: 3.85rem;
+    width: 50vw;
+    border: 1px solid rgb(222, 212, 212);
+    border-radius: .75rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Smooth transition */
+    padding-left: 1rem; /* Initial padding */
+}
+
+.input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: rgb(77, 135, 116); /* Change border color to green */
+    padding-left: 1.25rem; /* Add extra padding to move placeholder */
+}
+
+.search_btn{
+    height: 3.85rem;
+    width: 8rem;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(77, 135, 116);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(133, 127, 127, 0.66);
+    border-radius: .75rem;
+    margin-left: .75rem;
+}
+
+.search_btn:hover{
+    border: 2px solid rgb(77, 135, 116);
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    height: 18rem;
+    margin: 1.25rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc; 
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
+
+.card1{
+    background: linear-gradient(to bottom, #4fbfa5 , #8ec4b6);
+    background-size: cover;
+    background-position: bottom right;
+    color: white;
+    /* background-color: #4fbfa5; */
+}
+
+.block1 button{
+    text-align: center;
+    color: white;
+    width: 8rem;
+    padding: .55rem .45rem;
+    border: 1px solid white;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    background-color: #81ccbb;
+}
+
+.link1:hover .block1 button{
+    background-color: white;
+    color: #2f93a9;
+    box-shadow: 0 8px 8px #43956f;
+}
+
+
+.card2{
+    background: linear-gradient(to bottom, #6367cc , #989bd3);
+    background-size: cover;
+    background-position: bottom right;
+    /* background-color: #6367cc; */
+    color: white;
+}
+
+.block2 button{
+    text-align: center;
+    color: white;
+    width: 8rem;
+    padding: .55rem .45rem;
+    border: 1px solid white;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    background-color: #8f92de;
+}
+
+.link2:hover .block2 button{
+    background-color: white;
+    color: #2f93a9;
+    box-shadow: 0 8px 8px #627ab1;
+}
+
+.card3{
+    background: linear-gradient(to bottom, #b46867 , #ce9999);
+    background-size: cover;
+    background-position: bottom right;
+    /* background-color: #b46867; */
+    color: white;
+}
+
+.block3 button{
+    text-align: center;
+    color: white;
+    width: 8rem;
+    padding: .55rem .45rem;
+    border: 1px solid white;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    background-color: #da9d9c;
+}
+
+.link3:hover .block3 button{
+    background-color: white;
+    color: #2f93a9;
+    box-shadow: 0 8px 8px #ac6b59cb;
+}
+
+.card4{
+    background: linear-gradient(to bottom, #6e539d , #b2a1cf);
+    background-size: cover;
+    background-position: bottom right;
+    /* background-color: #6e539d; */
+    color: white;
+}
+
+.block4 button{
+    text-align: center;
+    color: white;
+    width: 8rem;
+    padding: .55rem .45rem;
+    border: 1px solid white;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    background-color: #ab92d8;
+}
+
+.link4:hover .block4 button{
+    background-color: white;
+    color: #2f93a9;
+    box-shadow: 0 8px 8px #7655a8cb;
+}
+
+.card5{
+    background: linear-gradient(to bottom, #2f93a9 , #78b0bc);
+    background-size: cover;
+    background-position: bottom right;
+    /* background-color: #2f93a9; */
+    color: white;
+}
+
+.block5 button{
+    text-align: center;
+    color: white;
+    width: 8rem;
+    padding: .55rem .45rem;
+    border: 1px solid white;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    background-color: #5eaec2;
+}
+
+.link5:hover .block5 button{
+    background-color: white;
+    color: #2f93a9;
+    box-shadow: 0 8px 8px #358391;
+}
+
+.card6{
+    background: linear-gradient(to bottom, #537ec0 , #7899ca);
+    background-size: cover;
+    background-position: bottom right;
+    /* background-color: #537ec0; */
+    color: white;
+}
+.block6 button{
+    text-align: center;
+    color: white;
+    width: 8rem;
+    padding: .55rem .45rem;
+    border: 1px solid white;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    background-color: #7999ca;
+}
+
+.link6:hover .block6 button{
+    background-color: white;
+    color: #2f93a9;
+    box-shadow: 0 8px 8px #516b93;
+}
+.card7{
+    background: linear-gradient(to bottom, #ce7642 , #d6a990);
+    background-size: cover;
+    background-position: bottom right;
+    /* background-color: #ce7642; */
+    color: white;
+}
+.block7 button{
+    text-align: center;
+    color: white;
+    width: 8rem;
+    padding: .55rem .45rem;
+    border: 1px solid white;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    background-color: #d5a183;
+}
+
+.link7:hover .block7 button{
+    background-color: white;
+    color: #2f93a9;
+    box-shadow: 0 8px 8px #b97d59;
+}
+.card8{
+    background: linear-gradient(to bottom, #ef677f , #eb97a6);
+    background-size: cover;
+    background-position: bottom right;
+    /* background-color: #ef677f; */
+    color: white;
+}
+.block8 button{
+    text-align: center;
+    color: white;
+    width: 8rem;
+    padding: .55rem .45rem;
+    border: 1px solid white;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    background-color: #e08c9b;
+}
+
+.link8:hover .block8 button{
+    background-color: white;
+    color: #2f93a9;
+    box-shadow: 0 8px 8px #bc7380;
+}
+.card9{
+    background: linear-gradient(to bottom, #e7ab52 , #e7c58e);
+    background-size: cover;
+    background-position: bottom right;
+    /* background-color: #e7ab52; */
+    color: white;
+}
+.block9 button{
+    text-align: center;
+    color: white;
+    width: 8rem;
+    padding: .55rem .45rem;
+    border: 1px solid white;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    background-color: #eac185;
+}
+
+.link9:hover .block9 button{
+    background-color: white;
+    color: #2f93a9;
+    box-shadow: 0 8px 8px #be9354;
+}
+
+.ms{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
