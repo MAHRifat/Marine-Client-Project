@@ -1,10 +1,33 @@
 import React from 'react';
 import './Try.css';
+import Typed from 'typed.js';
+import { useEffect, useRef } from 'react';
+
+
+
 function Try() {
+    const typedElement = useRef(null); // Create a reference for the target element
+
+    useEffect(() => {
+        // Initialize Typed.js
+        const typed = new Typed(typedElement.current, {
+            strings: ["Frontend Developer", "Backend Developer", "Web Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true,
+        });
+
+        // Cleanup function to destroy Typed.js instance
+        // return () => {
+        //     typed.destroy();
+        // };
+    }, []);
+
     return (
         <>
             <h1>Engine Basics</h1>
-
+            <span ref={typedElement}></span>
             <section>
                 <h2>ENGINE:</h2>
                 <p className='para'>An engine is Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
